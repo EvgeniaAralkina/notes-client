@@ -1,0 +1,36 @@
+/*body{*/
+/*    display: flex;*/
+/*    flex-flow: row wrap;*/
+/*}*/
+
+.header-div {
+    /*padding: 2%;*/
+
+    border-radius: 10px;
+    margin: 0.5%;
+    background-color: #E5E4E2;
+}
+
+.folders-div {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding-top: 0.5%;
+    width: 10%;
+    margin: 0.5%;
+    display: inline-block;
+    vertical-align: top;
+    /*background-color: #E5E4E2;*/
+    text-align: center
+}
+
+.main-div{
+    padding: 1%;
+    border-radius: 10px;
+    margin: 0.5%;
+    width: 84%;
+    background-color: #E5E4E2;
+    display: inline-block;
+    vertical-align: top;
+}
+
